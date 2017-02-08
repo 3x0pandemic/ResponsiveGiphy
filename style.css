@@ -1,5 +1,6 @@
 body {
   font-family: "Oswald";
+  margin:0;
 }
 
 img {
@@ -9,26 +10,31 @@ img {
 }
 
 header {
-  width: 100vw;
+  width: 99vw;
   text-align: center;
+  overflow: hidden;
+  margin: 0;
 }
 
 header img {
   width: 1000px;
 }
-
-footer {
-  background-color: #8d8d8d;
-  height: 50px;
-  width: 100vw;
-  text-align: center;
-  padding-top: 25px;
-}
-
-.giphyPlacement {
+ .giphyPlacement {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 10px;
+  padding: 25px;
+
+}
+
+footer {
+  background-color: #8d8d8d;
+  height: 50px;
+  width: 99vw;
+  text-align: center;
+  padding-top: 25px;
+  overflow: hidden;
+  
+
 }
